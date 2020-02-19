@@ -145,9 +145,9 @@ REST_FRAMEWORK = {
     'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema',
 }
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' # new
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-SITE_ID = 1 # new
+SITE_ID = 1 
 
 SWAGGER_SETTINGS = {
     'LOGIN_URL': 'rest_framework:login',
